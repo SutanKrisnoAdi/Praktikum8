@@ -15,7 +15,7 @@ Buat program sederhana dengan mengaplikasikan penggunaan class. Buatlah class un
     - Commit dan Push repository ke Github
 
 # Source Code
-
+#
 class mahasiswa:
     def __init__(self, nim, nama, tugas, uts, uas):
         self.nim = nim
@@ -54,9 +54,9 @@ class mahasiswa:
         del self.tugas[no]
         del self.uts[no]
         del self.uas[no]
-
+#
 data = mahasiswa([],[],[],[],[])
-
+#
 while True:
     menu = input("\n[(L)ihat, (T)ambah, (U)bah, (H)apus, (K)eluar]:")
     if menu == "t" or menu == "T":
@@ -117,7 +117,7 @@ while True:
 # Penjelasan dan Hasil Run
 
 - Pertama kita mendeklarasikan sebuah class mahasiswa yang didalamnya terdapat atribut NIM, Nama, nilai tugas, nilai UTS dan nilai UAS. JANGAN LUPA, untuk mendeklarasikan sebuah class didalam OOP kita harus menggunakan def_init_ dan juga self.
-
+#
 class mahasiswa:
     def __init__(self, nim, nama, tugas, uts, uas):
         self.nim = nim
@@ -127,11 +127,11 @@ class mahasiswa:
         self.uas = uas
 
 - Seperti biasa, deklarasikan satu dictionary kosong sebagai tempat menyimpan data-data yang sudah kita input. Ada 5 list kosong yang nantinya berisi NIM, Nama, nilai tugas, nilai UTS, dan nilai UAS
-
+#
 data = mahasiswa([],[],[],[],[])
 
 - Kita akan buat beberapa method untuk menambahkan, menampilkan, mengubah, dan menghapus data mahasiswa. Pertama membuat method tambah(), method ini berfungsi untuk menambahkan data. Dalam method ini kita menggunakan append() agar data yang terakhir ditambahkan ada di urutan list paling akhir.
-
+#
 def tambah(self,nim,nama,tugas,uts,uas):
         data.nim.append(nim)
         data.nama.append(nama)
@@ -143,7 +143,7 @@ HASIL RUN TAMBAH DATA
 ![image1.png](sikirinsot/tambahdata.png)
 
 - Fungsi membuat method lihat() yaitu untuk menampilkan seluruh data yang sudah kita tambahkan tadi. Jika tidak ada data sama sekali, maka akan muncul tulisan TIDAK ADA DATA.
-
+#
 def lihat(self):
         for i in range(len(data.nama)):
             print("|", i+1, "  |", end="")
@@ -158,7 +158,7 @@ HASIL RUN LIHAT DATA
 ![image2.png](sikirinsot/tampilantambah.png)
 
 - Fungsi membuat method ubah() yaitu untuk mengubah data. jika method ini diinput, maka data Nama, NIM, nilai tugas, nilai UTS, nilai UAS index nomor - (no) akan diubah sesuai dengan inputan dari user. Index ke - (no) akan dicari secara otomatis sesuai dengan nama yang ingin diubah oleh user.
-
+#
 def ubah(self,nim,nama,tugas,uts,uas):
         self.nim[no] = nim
         self.nama[no] = nama
@@ -169,7 +169,7 @@ def ubah(self,nim,nama,tugas,uts,uas):
 ![image3.png](sikirinsot/tampilanubah.png)
 
 - Terakhir kita membuat method hapus(), yang berfungsi untuk menghapus data berdasarkan nama. Kita bisa menggunakan del untuk menghapus datanya. Seperti sebelumnya, nomor index list yang akan dihapus disesuaikan dengan inputan dari user. Yaitu index nomor ke - (no).
-
+#
 def hapus(self):
         del self.nim[no]
         del self.nama[no]
