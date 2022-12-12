@@ -6,12 +6,12 @@ NIM     : 312210056
 
 # TUGAS PRAKTIKUM 8
 Buat program sederhana dengan mengaplikasikan penggunaan class. Buatlah class untuk menampilkan daftar nilai mahasiswa, dengan ketentuan:
-    1. Method tambah() untuk menambah data
-    2. Method tampilkan() untuk menampilkan data
-    3. Method hapus(nama) untuk menghapus data berdasarkan nama
-    4. Method ubah(nama) untuk mengubah data berdasarkan nama
-    5. Buat diagram class, flowchart dan penjelasan programnya pada README.md.
-    6. Commit dan Push repository ke Github
+    - Method tambah() untuk menambah data
+    - Method tampilkan() untuk menampilkan data
+    - Method hapus(nama) untuk menghapus data berdasarkan nama
+    - Method ubah(nama) untuk mengubah data berdasarkan nama
+    - Buat diagram class, flowchart dan penjelasan programnya pada README.md.
+    - Commit dan Push repository ke Github
 
 # Source Code
 
