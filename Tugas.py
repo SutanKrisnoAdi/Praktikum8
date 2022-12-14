@@ -37,7 +37,7 @@ class mahasiswa:
         del self.uts[no]
         del self.uas[no]
 
-data = mahasiswa([],[],[],[],[])
+data = mahasiswa([], [] , [] , [] , [])
 
 while True:
     menu = input("\n[(L)ihat, (T)ambah, (U)bah, (H)apus, (K)eluar]:")

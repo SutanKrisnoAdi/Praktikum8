@@ -14,8 +14,8 @@ Buat program sederhana dengan mengaplikasikan penggunaan class. Buatlah class un
     - Buat diagram class, flowchart dan penjelasan programnya pada README.md.
     - Commit dan Push repository ke Github
 
-# Source Code
-#
+SOURCE CODE :
+
 class mahasiswa:
     def __init__(self, nim, nama, tugas, uts, uas):
         self.nim = nim
@@ -54,10 +54,10 @@ class mahasiswa:
         del self.tugas[no]
         del self.uts[no]
         del self.uas[no]
-#
-data = mahasiswa([],[],[],[],[])
-#
-while True:
+
+data = mahasiswa([] , [] , [] , [] , [])
+
+while True :
     menu = input("\n[(L)ihat, (T)ambah, (U)bah, (H)apus, (K)eluar]:")
     if menu == "t" or menu == "T":
        print("\nTambah Data")
